@@ -1,0 +1,27 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body { 
+
+    background-color: rgb(208, 209, 228);
+}
+
+header {
+    width: 100%;
+    height: 20px;
+    
+    }
+
+.navbartop1 {
+
+    border: 2px solid;
+    height: 10px;
+    width: 100%;
+}
+
+
+
