@@ -200,9 +200,9 @@ h1 {
 .cont2-content {
 
     height: 20%;
-    width: 100%;
+    width: 95%;
     /* border: 2px solid; */
-    margin: 70px 0px 0px 100px;
+    margin: 70px 0px 0px 30px;
     display: flex;
 
 }
@@ -258,26 +258,68 @@ h1 {
     a(100, 0, 0, 0);
     width: 100%;
     height: 1000px;
-    border: 2px solid;
+    /* border: 2px solid; */
     overflow: hidden;
 
 }
 
 .cont3-content {
-/* 
-    width: 1005;
-    height: 100px;
-    border: 2px solid;
-    display: flex;
-    align-items: center;
-    margin: 20px; */
 
-    height: 50px;
-    width: 60%;
-    /* border: 2px solid; */
-    margin: 70px 0px 0px 100px;
+    margin: 70px 0px 0px 30px;
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
     
 }
+
+.cont3-content a {
+   margin: 10px; 
+}
+
+.car-card{
+    width: 1005;
+border-style: none;
+justify-content: space-between;
+  /* border: 2px solid; */
+  height: 30%;
+}
+
+.car-box {
+
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid; */
+    object-fit: cover;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.card-img{
+
+    height: 70%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+
+.card-content{
+
+    height: 30%;
+   color: black;
+   text-align: center;
+}
+
+.card-img:hover{
+
+    scale: 1.2;
+}
+
+.btn-seemore {
+    
+
+    display: flex;
+    align-items: center;
+    height: 80px;
+    /* border: 2px solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
